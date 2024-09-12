@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronómetro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="chrono-display">00:00:00</div>
+        <div id="controls">
+            <button id="start-btn">Iniciar</button>
+            <button id="pause-btn" disabled>Pausar</button>
+            <button id="reset-btn">Reiniciar</button>
+            <button id="lap-btn" disabled>Anotar vuelta</button>
+        </div>
+        <div id="laps">
+            <h2>Vueltas:</h2>
+            <ul id="lap-list"></ul>
+        </div>
+    </div>
+
+    <script src="cronometro.js"></script>
+</body>
+</html>

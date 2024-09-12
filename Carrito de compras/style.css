@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  height: 100%;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+main .product {
+  display: flex;
+  flex-direction: row;
+  border-bottom: dotted 3px #296986;
+  gap: 20px;
+}
+main .product div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+main .product div h2 {
+  font-size: 50px;
+  color: #296986;
+  font-weight: 800;
+}
+main .product div h3 {
+  font-size: 35px;
+  color: #296986;
+  font-weight: 800;
+}
+main .product img {
+  width: 250px;
+  height: 250px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.agregar {
+  gap: 10px;
+  width: 400px;
+}
+.agregar h4 {
+  font-size: 20px;
+  color: #296986;
+  font-weight: 600;
+}
+.agregar button {
+  width: 140px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #296986;
+  border-radius: 10px;
+  font-size: 25px;
+  border: solid 3px #296986;
+}
+.agregar input {
+  width: 60px;
+  font-size: 18px;
+  padding: 5px;
+  border: solid 2px #296986;
+  border-radius: 5px;
+  text-align: center;
+}
+
+aside {
+  top: 0;
+  right: 0;
+  width: 600px;
+  height: 100vh;
+  position: fixed;
+  background-color: #296986;
+  padding: 20px;
+}
+aside div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+aside div h2 {
+  color: white;
+  font-size: 45px;
+}
+aside button {
+  margin: 20px;
+  width: 140px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #296986;
+  border-radius: 10px;
+  font-size: 25px;
+  border: solid 3px #296986;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-contenedor">
+
+    <main>
+        <div class="product">
+            <img src="img/iphone.jpg" alt="">
+
+            <div>
+                <div class="name">
+                    <h3>Iphone 15 PRO</h3>
+                
+                    <h2>999$</h2>
+                </div>
+
+                <div class="agregar">
+                    <h4>Cantidad: </h4>
+                    <input type="number" value="1" min="1" id="quantity-1">
+                    <button>Agregar</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="product">
+            <img src="img/mouse.jpg" alt="">
+
+            <div>
+                <div class="name">
+                    <h3>Mouse Rising 2J</h3>
+                
+                    <h2>50$</h2>
+                </div>
+
+                <div class="agregar">
+                    <h4>Cantidad:</h4>
+                    <input type="number" value="1" min="1" id="quantity-2">
+                    <button>Agregar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="img/ps5.jpg" alt="">
+
+            <div>
+                <div class="name">
+                    <h3>PlayStation5</h3>
+                
+                    <h2>499$</h2>
+                </div>
+
+                <div class="agregar">
+                    <h4>Cantidad:</h4>
+                    <input type="number" value="1" min="1" id="quantity-3">
+                    <button>Agregar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="img/xbox.jpg" alt="">
+
+            <div>
+                <div class="name">
+                    <h3>Xbox Series S</h3>
+                
+                    <h2>399$</h2>
+                </div>
+
+                <div class="agregar">
+                    <h4>Cantidad:</h4>
+                    <input type="number" value="1" min="1" id="quantity-4">
+                    <button>Agregar</button>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <aside id="Carrito">
+
+        <div>
+            <img src="img/carrito-de-compras.png" alt="">
+
+            <h2>Total: $0</h2>
+        </div>
+
+        <ul id="cart-items"></ul>
+
+        <button>Comprar</button>
+    </aside>
+    
+
+    </div>
+    <script src="carrito.js"></script>
+</body>
+</html>
